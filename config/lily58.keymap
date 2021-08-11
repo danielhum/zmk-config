@@ -17,7 +17,7 @@
           label = "LEFT_HOME";
           #binding-cells = <0>;
           bindings = <&kp LEFT>, <&kp HOME>;
-          mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+          mods = <(MOD_LGUI|MOD_RGUI)>;
       };
 
       rtend: right_end {
@@ -25,7 +25,7 @@
           label = "RIGHT_END";
           #binding-cells = <0>;
           bindings = <&kp RIGHT>, <&kp END>;
-          mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+          mods = <(MOD_LGUI|MOD_RGUI)>;
       };
 
       uppg: up_pageup {
