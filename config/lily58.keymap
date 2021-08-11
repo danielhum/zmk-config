@@ -15,6 +15,7 @@
       lthome: left_home {
           compatible = "zmk,behavior-mod-morph";
           label = "LEFT_HOME";
+          #binding-cells = <0>;
           bindings = <&kp LEFT>, <&kp HOME>;
           mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
       };
@@ -22,6 +23,7 @@
       rtend: right_end {
           compatible = "zmk,behavior-mod-morph";
           label = "RIGHT_END";
+          #binding-cells = <0>;
           bindings = <&kp RIGHT>, <&kp END>;
           mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
       };
@@ -29,6 +31,7 @@
       uppg: up_pageup {
           compatible = "zmk,behavior-mod-morph";
           label = "UP_PGUP";
+          #binding-cells = <0>;
           bindings = <&kp UP>, <&kp PGUP>;
           mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
       };
@@ -36,6 +39,7 @@
       dnpg: down_pagedown {
           compatible = "zmk,behavior-mod-morph";
           label = "DOWN_PGDOWN";
+          #binding-cells = <0>;
           bindings = <&kp DOWN>, <&kp PGDN>;
           mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
       };
