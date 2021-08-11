@@ -33,7 +33,7 @@
           mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
       };
 
-      dnnpg: down_pagedown {
+      dnpg: down_pagedown {
           compatible = "zmk,behavior-mod-morph";
           label = "DOWN_PGDOWN";
           bindings = <&kp DOWN>, <&kp PGDN>;
